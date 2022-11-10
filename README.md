@@ -8,15 +8,16 @@
 * APP Develop
 
 ## Security
+ESP-IDF provides two different secure boot schemes for different revisions of ESP32. Secure boot v1 is for our ESP32C3 chip. 
+Secure boot and flash encryption are not reversible. Therefore, only apply them to production devices.
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/secure-boot-v1.html
+[book Developing IoT Projects with ESP32]
 Secure boot is the way we make sure our devices run only our firmware and prevent third parties from tampering with our devices.
 The boot process has three stages:
 * 1 First-stage bootloader
 * 2 Second-stage bootloader
 * 3 Application startup
-ESP-IDF provides two different secure boot schemes for different revisions of ESP32. Secure boot v1 is for our ESP32C3 chip
-Secure boot and flash encryption are not reversible. Therefore, only apply them to production devices.
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/secure-boot-v1.html
-[book Developing IoT Projects with ESP32]
+
 
 ## Updating OTA
 One security best practice is that we need to set a mechanism to update firmware of devices in the field. If we find a vulnerability after installation, calling all devices back would be quite costly. Instead, the devices can check an online server to see whether there is new firmware or not and then download and activate any updates. [book Developing IoT Projects with ESP32]
