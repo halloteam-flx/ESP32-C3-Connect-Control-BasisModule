@@ -17,5 +17,10 @@ idf.py
 easy aubstitute IDE 
 1 Arduino
 2 PlatformIO
+! dsda
 
+* dsadsd4
 * 
+
+- sksjds
+- 
