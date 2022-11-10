@@ -15,12 +15,11 @@ idf.py
 
 
 easy aubstitute IDE 
-1 Arduino
-2 PlatformIO
-! dsda
 
-* dsadsd4
-* 
+
+* Arduino-ESP32  
+https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/getting_started.html
+* PlatformIO https://docs.platformio.org/en/latest/
 
 - sksjds
 - 
