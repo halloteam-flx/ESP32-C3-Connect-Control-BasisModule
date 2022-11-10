@@ -53,3 +53,23 @@ https://www.youtube.com/c/EspressifSystems/featured
 
 
 _please see the starred projects for code-examples_
+
+
+Frequently used Git Commands
+```
+git add .
+git commit -m 'what have you done'
+git push
+
+git checkout 
+git pull
+```
+
+(because this is a private repo you need to download in a specific way)
+```
+git clone https://halloteam-flx@github.com/halloteam-flx/ESP32C3
+```
+personal access token 
+```
+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
+```
