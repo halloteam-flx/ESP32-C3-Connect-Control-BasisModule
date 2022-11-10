@@ -17,9 +17,8 @@ idf.py
 easy aubstitute IDE 
 
 
-* Arduino-ESP32  
-https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/getting_started.html
-* PlatformIO https://docs.platformio.org/en/latest/
+* Arduino-ESP32  https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/getting_started.html
+* PlatformIO  https://docs.platformio.org/en/latest/
 
 - sksjds
 - 
