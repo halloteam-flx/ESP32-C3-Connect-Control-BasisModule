@@ -16,10 +16,10 @@ The boot process has three stages:
 ESP-IDF provides two different secure boot schemes for different revisions of ESP32. Secure boot v1 is for our ESP32C3 chip
 Secure boot and flash encryption are not reversible. Therefore, only apply them to production devices.
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/secure-boot-v1.html
-[Developing IoT Projects with ESP32]
+[book Developing IoT Projects with ESP32]
 
 ## Updating OTA
-One security best practice is that we need to set a mechanism to update firmware of devices in the field. If we find a vulnerability after installation, calling all devices back would be quite costly. Instead, the devices can check an online server to see whether there is new firmware or not and then download and activate any updates. [Developing IoT Projects with ESP32]
+One security best practice is that we need to set a mechanism to update firmware of devices in the field. If we find a vulnerability after installation, calling all devices back would be quite costly. Instead, the devices can check an online server to see whether there is new firmware or not and then download and activate any updates. [book Developing IoT Projects with ESP32]
 
 ### most frequently used commands ESP-IDF:
 ```
@@ -37,15 +37,17 @@ https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/g
 * PlatformIO 
 https://docs.platformio.org/en/latest/
 
-### read ESP-IDF official documents:
+
+### ESP-IDF official documents:
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html
 
-### watch Espressif DevCon2022 Talk:
+### Espressif DevCon2022 Talk:
 https://www.youtube.com/c/EspressifSystems/featured
 
+
 ### recommanded books and tutorials
-https://randomnerdtutorials.com/getting-started-with-esp32/
-https://issuu.com/eimworld/docs/preview_the_official_esp32_book/2?ff
+* https://randomnerdtutorials.com/getting-started-with-esp32/
+* https://issuu.com/eimworld/docs/preview_the_official_esp32_book/2?ff
 
 
 
