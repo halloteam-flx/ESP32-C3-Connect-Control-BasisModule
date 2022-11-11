@@ -1,5 +1,7 @@
 # ESP32C3
 ! developing embedded system using ESP32-C3 based chip module
+_please see the starred projects within this GitHub Account for code-examples_
+
 
 ## technical bottleneck
 * pairing between two BLE (bluetooth low energy) notes
@@ -52,7 +54,7 @@ https://www.youtube.com/c/EspressifSystems/featured
 
 
 
-_please see the starred projects for code-examples_
+
 
 
 Frequently used Git Commands
