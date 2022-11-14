@@ -4,6 +4,12 @@
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
 
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+int pos = 0;    // variable to store the servo position
+
 //Default Temperature is in Celsius
 //Comment the next line for Temperature in Fahrenheit
 #define temperatureCelsius
@@ -163,6 +169,8 @@ void printReadings(){
 }
 
 void setup() {
+  myservo.attach(6);  // attaches the servo on pin 6 to the servo object
+
   //OLED display setup
   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
   if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { // Address 0x3C for 128x32
@@ -193,6 +201,19 @@ void setup() {
 }
 
 void loop() {
+
+  for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15ms for the servo to reach the position
+  }
+    for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15ms for the servo to reach the position
+  }
+
+
+
   // If the flag "doConnect" is true then we have scanned for and found the desired
   // BLE Server with which we wish to connect.  Now we connect to it.  Once we are
   // connected we set the connected flag to be true.
