@@ -6,7 +6,7 @@ _please see the starred projects within this GitHub Account for code-examples_
 
 
 ## technical bottleneck
-* pairing between two BLE (bluetooth low energy) notes
+* pairing between two BLE (bluetooth low energy) nodes /devices
 * Secure boot and over-the-air (OTA) updates
 * Gateway
 * APP Develop
