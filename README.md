@@ -52,6 +52,8 @@ https://www.youtube.com/c/EspressifSystems/featured
 
 ### recommanded books and tutorials
 * https://randomnerdtutorials.com/getting-started-with-esp32/
+* https://circuitdigest.com/microcontroller-projects/how-to-configure-an-esp-mesh-network-using-arduino-ide-to-communicate-between-esp32-esp8266-and-nodemcu
+* https://embeddedexplorer.com/esp32-adc-esp-idf-tutorial/
 * https://issuu.com/eimworld/docs/preview_the_official_esp32_book/2?ff
 
 
