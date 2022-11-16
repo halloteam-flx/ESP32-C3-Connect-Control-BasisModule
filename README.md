@@ -56,7 +56,7 @@ https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/
 * https://randomnerdtutorials.com/getting-started-with-esp32/
 * https://deepbluembedded.com/getting-started-with-esp32-programming-tutorials/
 * https://www.electronicshub.org/tutorials/
-* https://embeddedexplorer.com/esp32-adc-esp-idf-tutorial/
+* [https://embeddedexplorer.com/esp32-adc-esp-idf-tutorial/](https://embeddedexplorer.com/esp32/)
 
 
 
