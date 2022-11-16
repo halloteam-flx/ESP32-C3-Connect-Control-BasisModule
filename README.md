@@ -49,10 +49,12 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.ht
 ### Espressif DevCon2022 Talk:
 https://www.youtube.com/c/EspressifSystems/featured
 
+### Espressif ESP IoT Solutions
+https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/
 
 ### recommanded books and tutorials
 * https://randomnerdtutorials.com/getting-started-with-esp32/
-* https://circuitdigest.com/microcontroller-projects/how-to-configure-an-esp-mesh-network-using-arduino-ide-to-communicate-between-esp32-esp8266-and-nodemcu
+* 
 * https://embeddedexplorer.com/esp32-adc-esp-idf-tutorial/
 * https://issuu.com/eimworld/docs/preview_the_official_esp32_book/2?ff
 
